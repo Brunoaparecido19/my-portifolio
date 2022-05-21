@@ -1,11 +1,12 @@
 import React from 'react';
+import { Main } from './components/main/main';
 import { GlobalStyle } from './globalStyle';
 
 function App(): JSX.Element {
   return (
     <>
       <GlobalStyle />
-      <h1>hello word</h1>
+      <Main />
     </>
   );
 }
