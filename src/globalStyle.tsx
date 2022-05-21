@@ -8,4 +8,9 @@ export const GlobalStyle = createGlobalStyle`
 }
 body {
   font-family: 'Fira Code', monospace;
+  background: #070707;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }`;
